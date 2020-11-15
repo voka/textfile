@@ -1,0 +1,49 @@
+웹 서비스 구현의 모든 것 ( 무료 제작툴 )- 링크 - https://www.youtube.com/watch?v=u3Ph_M2bySg
+
+1. 서비스 기획 - trello, notion
+
+2. Design - Figma
+- 스케치, 일러스트레이터 -> 온라인 툴 , UI를 빠르게 디자인 할 수 있다.
+다운로드 , css, 안드로이드, IOS로 내보내기가 가능하다
+
+3.Photo - Unsplash -> 용량크고 아름다운 모든 사진을 만날 수 있다.
+
+4. Css 프레임 워크 Tailwind Css,  Bulma Css-> 평범하거나 똑같아 보이지 않게 디자인 할 수 있음
+
+5.Code 저장소 -> github(혼자) gitLab(같이)
+
+6. api를 만들어야 한다면 엔드포인트를 테스트할 수 있는 클라이언트가 필요하다.
+
+rest -> insomnia.rest
+GraphQL -> altair 
+
+7. 기능 구현 (전부 일일히 다 손으로 짤 필요가 없다.)
+-> Algolia -> 검색엔진 서비스 
+-> AuthO, AWs Cognito => 유저 비밀번호 관리 프로그램
+-> mailgun(트랜젝션 : 트리거, 이벤트 발생 후 메일을 보내는 것 (ex. 로그인 시 이메일인증관련 이메일 보내기), 한달에 1만통 무료로 사용가능), mailchimp(마케팅 이메일, 뉴스레터등)  =>이메일 관리기능
+-> 웹사이트 보안 Let's Encrypt (https무료료 달아주는 것) -> Certificate
+
+8. deploy 
+백엔드 -> heroku (무료), aws (1년 무료)
+프론트엔드 -> netlify, GitHub Pages
+서버리스 -> AWS Lambda(1M free requests per month) , Google Cloud Functions
+
+9. 데이터베이스 -> amazon DynamoDB(25G 스토리지), Google Cloud Firestore(1GB),
+ MongoDB Atlas, GraphQL => FaunaDB
+
+10. 업로드 파일 ->Google Cloud Storage(5G 스토리지 무료), cloudinary (프로필 사진 같은 사진 저장에 최적화 돼 있음. 저장, 편집 
+
+11. 에러 발생 알림기능
+sentry.io -> 언제 에러가 발생했는지 알려줌(에러가 있을때 마다 이메일을 보내줌)
+
+12. pusher -> 채팅기능 웹서비스(무료)
+
+13. One Signal  -> 알림기능
+
+14. Feed 기능 -> 누가 누구를 팔로잉하고 댓글남기고 같은 기능 -> getstream.io
+
+15. 웹사이트 분석 -> google analytic, hotjar, mixpanel
+
+16. 프로젝트 시간관리 -> VSC 익스텐션 -> Wakatime
+
+
